@@ -1,13 +1,13 @@
 import React from 'react'
-import Mainnav from './Mainnav'
 import Topbar from './Topbar'
+import Mainnav from './Mainnav'
 
 const Navbar = () => {
   return (
-    <>
+    <div className='w-full h-full'>
     <Topbar/>
     <Mainnav/>
-    </>
+    </div>
   )
 }
 

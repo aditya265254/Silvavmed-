@@ -3,8 +3,8 @@ import { contact_Info, social_Icons } from "@/constants";
 
 const Topbar = () => {
   return (
-    <div className="max-w-screen-xl mx-auto mt-7.5 sm:flex sm:justify-between  ">
-      <div className="flex gap-1 flex justify-evenly">
+    <div className="max-w-7xl mx-auto mt-7.5 sm:flex sm:justify-between  ">
+      <div className="flex gap-6  justify-evenly">
         {contact_Info.map((item, index) => (
           <div key={index} className="flex items-center gap-1.5">
             <img className={item.iconClass} src={item.icon} alt="icon" />

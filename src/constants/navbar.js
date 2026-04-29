@@ -1,10 +1,10 @@
-import logo from "@/assets/images/common/brand-logo.svg";
+import logo from "../assets/images/common/brand-logo.svg";
 
-export const silvavmedLogo = [
+export const silvavmedLogo = 
     {
         img: logo,
     }
-]
+
 
 export const navLinks = [
     {

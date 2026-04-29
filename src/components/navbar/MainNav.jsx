@@ -3,7 +3,7 @@ import { buttons, navLinks, silvavmedLogo } from '@/constants'
 import Abutton from '../common/Abutton'
 const Mainnav = () => {
   return (
-    <div className=' max-w-screen-xl mx-auto flex justify-center sm:justify-between mt-6.5 items-center'>
+    <div className=' max-w-7xl mx-auto flex justify-center sm:justify-between mt-6.5 items-center'>
       <div>
         <img className='w-64 h-20.1 ' src={silvavmedLogo.img} alt="logo" />
       </div>

@@ -8,6 +8,7 @@ import Description from '@/sections/Description'
 import LandshutSection from '@/sections/LandshutSection'
 import HealthcareSection from '@/sections/HealthcareSection'
 import Crusiol from '@/sections/Crusiol'
+import TeamSection from '@/sections/TeamSection'
 
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
         <LandshutSection/>
         <HealthcareSection/>
         <Crusiol/>
+        <TeamSection/>
         <Footer/>
         
     </div>

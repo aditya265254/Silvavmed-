@@ -1,5 +1,6 @@
 import React from "react";
 import { contact_Info, social_Icons } from "@/constants";
+import { FaAlignJustify } from "react-icons/fa6";
 
 const Topbar = () => {
   return (
@@ -12,7 +13,7 @@ const Topbar = () => {
           </div>
         ))}
       </div>
-      <div className="flex items-center sm:gap-2 justify-center mt-5 gap-5">
+      <div className="flex items-center sm:gap-4 sm:justify-center justify-between ml-2">
         {social_Icons.map((item, index) => (
           <div
             key={index}
@@ -23,6 +24,9 @@ const Topbar = () => {
             </a>
           </div>
         ))}
+        <div className="lg:hidden">
+          <FaAlignJustify size={22}/>
+        </div>
       </div>
     </div>
   );

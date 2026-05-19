@@ -10,13 +10,13 @@ export const contact_Info = [
     icon: mailIcon,
     text: "info@silvatel24.de",
     iconClass: "w-6.5 h-6.5",
-    textClass: "w-[149px] h-[24px] font-normal text-lg text-[#1F1F1F]"
+    textClass: "w-[149px] h-[24px] font-normal sm:text-lg text-[#1F1F1F] whitespace-nowrap"
   },
   {
     icon: phoneIcon,
     text: "0871 / 430 747 – 0",
      iconClass: "w-[19px] h-[19px]",
-    textClass: "w-[161px] h-[24px] font-normal text-lg ml-1 text-[#1F1F1F]"
+    textClass: "w-[161px] h-[24px] font-normal sm:text-lg ml-1 text-[#1F1F1F] whitespace-nowrap "
   },
 ];
 

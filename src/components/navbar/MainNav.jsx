@@ -8,12 +8,12 @@ const Mainnav = () => {
         <img className='w-64 h-20.1 ' src={silvavmedLogo.img} alt="logo" />
       </div>
       <div className='flex items-center justify-center gap-8'>
-      <div className='flex gap-8 font-medium text-lg text-[#1F1F1F]'>
+      <div className='hidden lg:flex gap-8 font-medium text-lg text-[#1F1F1F]'>
         {navLinks.map((item, index) => (
           <a key={item.id} href={item.href}>{item.label}</a>
         ))}
       </div>
-      <div>
+      <div className='hidden sm:block'>
         <Abutton label={buttons.bookAppointment.lable}
         icon={buttons.bookAppointment.icon}
         />

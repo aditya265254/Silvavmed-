@@ -20,7 +20,7 @@ const Topbar = () => {
            className='h-10 w-10 flex justify-center items-center rounded-full border border-gray-200/60 shadow-sm '
           >
             <a className="h-4.75 w-4.75 " href={item.path}>
-              <img src={item.icon} alt="icon" />
+              <img src={item.icon} alt="icon" className="hover:scale-125 transition duration-300" />
             </a>
           </div>
         ))}

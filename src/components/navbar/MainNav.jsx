@@ -10,11 +10,11 @@ const Mainnav = () => {
       <div className='flex items-center justify-center gap-8'>
       <div className='hidden lg:flex gap-8 font-medium text-lg text-[#1F1F1F]'>
         {navLinks.map((item, index) => (
-          <a key={item.id} href={item.href}>{item.label}</a>
+          <a className='hover:text-[#14967F] transition duration-300 ease-in-out hover:scale-110' key={item.id} href={item.href}>{item.label}</a>
         ))}
       </div>
       <div className='hidden sm:block'>
-        <Abutton label={buttons.bookAppointment.lable}
+        <Abutton  label={buttons.bookAppointment.lable}
         icon={buttons.bookAppointment.icon}
         />
       </div>

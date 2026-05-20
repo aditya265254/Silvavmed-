@@ -19,7 +19,7 @@ const LandshutSection = () => {
       {/* Left - Text Content */}
       <div className="flex justify-center flex-col lg:w-[50%] lg:pl-40 items-center text-center lg:text-left lg:items-start">
         
-        <h3 className="font-normal text-[42px] leading-[50px] font-[Montserrat]">
+        <h3 className="font-normal sm:text-[42px] text-3xl lg:leading-[50px] leading-10 font-[Montserrat]">
           Unser Standort in <br />
           <span className="font-bold text-[#14967F]">Landshut</span>
         </h3>

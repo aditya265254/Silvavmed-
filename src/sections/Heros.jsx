@@ -10,10 +10,10 @@ import { buttons } from '@/constants'
 
 const HeroSection = () => {
   return (
-    <section className="flex flex-col items-center lg:flex-row lg:justify-around lg:gap-10 max-w-7xl mx-auto">
+    <section className="flex flex-col items-center lg:flex-row lg:justify-around lg:gap-10 max-w-7xl mx-auto ">
       
       {/* Left - Text Content */}
-      <div className="flex items-center justify-center flex-col gap-5 pt-5 sm:gap-5 pb-6 lg:gap-4 lg:items-start lg:pt-0">
+      <div className="flex items-center justify-center flex-col gap-3 pt-5 sm:gap-5 pb-6 lg:gap-4 lg:items-start lg:pt-0">
         
         <h2 className="w-80 h-11 bg-[#CEDF89] text-sm flex items-center justify-center rounded-full sm:w-[27.5rem] font-[Montserrat] font-bold sm:text-xl">
           Dr. Med. univ. Wlen Dost Mohammad
@@ -32,6 +32,7 @@ const HeroSection = () => {
 
      <Abutton  label={buttons.bookAppointment.lable}
         icon={buttons.bookAppointment.icon}
+        to= '/appointment'
         />
 
       </div>

@@ -9,12 +9,12 @@ import LandshutSection from '@/sections/LandshutSection'
 import HealthcareSection from '@/sections/HealthcareSection'
 import Crusiol from '@/sections/Crusiol'
 import TeamSection from '@/sections/TeamSection'
+import PhilosophySection from '@/sections/PhilosophySection'
 
 
 const Home = () => {
   return (
     <div>
-        <Navbar/>
         <HeroSection/>
         <Treatmenticons/>
         <Description/>
@@ -22,7 +22,7 @@ const Home = () => {
         <HealthcareSection/>
         <Crusiol/>
         <TeamSection/>
-        <Footer/>
+        <PhilosophySection/>
         
     </div>
   )

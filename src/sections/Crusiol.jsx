@@ -95,10 +95,10 @@ const Crusiol = () => {
   ];
 
   return (
-    <section className="pt-10 pb-10 m-2 lg:m-0">
+    <section className="md:pt-10 pb-10 m-2 lg:m-0">
       {/* Section Header */}
       <div className="section-head  mx-auto px-4 mb-12">
-        <h2 className=" font-normal font-montserrat text-center  text-[42px] text-[#333] mb-4">
+        <h2 className=" font-normal font-montserrat text-center  lg:text-[42px] text-[#333] mb-4  text-3xl">
           Unser <span className="text-[#14967F] font-bold">Fachbereiche</span>
         </h2>
         
@@ -150,7 +150,7 @@ const Crusiol = () => {
         </div>
 
         {/* Dots Navigation */}
-        <div className="dots flex justify-center gap-3 mt-8">
+        <div className="dots flex justify-center gap-3 md:mt-8 mt-2.5">
           {[0, 1, 2].map((index) => (
             <button
               key={index}

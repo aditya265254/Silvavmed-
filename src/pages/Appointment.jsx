@@ -23,7 +23,7 @@ const Appointment = () => {
         {/* Hero Banner */}
         <section>
           <div className="w-full bg-[#14967F] mt-5 p-12 mb-1">
-            <h1 className="lg:h-29.25 lg:w-195.5 flex items-center font-bold text-[42px] leading-13 font-[Montserrat] text-[#CEDF89]">
+            <h1 className="lg:h-29.25 lg:w-195.5 flex items-center font-bold md:text-[42px] text-3xl leading-13 font-[Montserrat] text-[#CEDF89]">
               Book Your Appointments Today
             </h1>
           </div>

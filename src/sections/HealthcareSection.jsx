@@ -51,7 +51,7 @@ const HealthcareSection = () => {
 
       {/* Right Content - Vorteile */}
       <div className="pt-7 w-full lg:w-auto">
-        <h1 className="h-9 max-w-[553px] font-normal text-[42px] leading-10 text-white font-montserrat">
+        <h1 className="h-9 max-w-[553px] font-normal text-[42px] leading-10 text-white font-montserrat pb-20 lg:pb-0">
           Unsere <span className="font-bold text-[#CEDF89]">Vorteile</span>
         </h1>
 

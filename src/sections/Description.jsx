@@ -4,11 +4,11 @@ import icon from '../assets/icons/location/btn-location-icon.svg'
 
 const Description = () => {
   return (
-    <section className="bg-[#14967F] mt-28 flex flex-col items-center justify-center px-4">
+    <section className="bg-[#14967F] sm:mt-28 flex flex-col items-center justify-center px-4">
       
-      <h1 className="font-normal text-[42px] pt-16 pb-12 text-white text-center ">
+      <h1 className="font-normal text-[42px] sm:pt-16 pt-3 sm:pb-12 pb-2 text-white text-center leading-12 ">
         Unsere{' '}
-        <span className="text-[#CEDF89] font-bold font-[Montserrat]">Standorte</span>
+        <span className="text-[#CEDF89] font-bold font-[Montserrat] ">Standorte</span>
       </h1>
 
       <p className="font-light text-[20px] text-white text-center leading-8 lg:max-h-[129px] lg:max-w-[898px]">
@@ -20,7 +20,7 @@ const Description = () => {
         und fachkompetentes Personal sind für uns eine Selbstverständlichkeit.
       </p>
 
-      <div className="mt-24 mb-16 bg-white rounded-full">
+      <div className="sm:mt-24 mt-4 sm:mb-16 mb-7 bg-white rounded-full">
         <Abutton
           label="LANDSHUT"
           icon={icon}

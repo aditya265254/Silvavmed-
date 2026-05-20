@@ -59,7 +59,7 @@ const Treatmenticons = () => {
     },
   ];
   return (
-    <section className="max-w-7xl mx-auto mb-15">
+    <section className="max-w-7xl mx-auto mb-15 mt-8 lg:mt-0 ">
       <h2 className="font-[Montserrat] font-normal text-4xl text-center lg:text-left lg:text-4xl  lg:mt-10">
         Unsere vielseitigen <br />
         <span className="text-[#14967F] font-bold">Behandlungen</span>
@@ -69,7 +69,7 @@ const Treatmenticons = () => {
         Gemeinsam mit Ihnen finden wir zusammen die für Sie zielführende
         Behandlung, um Ihre Gesundheit dauerhaft zu erhalten oder zu verbessern.
       </p>
-      <div className="flex flex-wrap gap-16 justify-center mt-10">
+      <div className="flex flex-wrap sm:gap-16 justify-center sm:mt-10 gap-6">
       {treatments.map((item, index) => {
           return (
               <div className="flex flex-col items-center justify-between mt-5 gap-2">

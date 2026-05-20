@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useForm } from "react-hook-form";
 import appoinmentdoctor from "../assets/images/appointment/appointment-doctor-img.svg"
 
@@ -9,6 +9,10 @@ const Appointment = () => {
     formState: { errors },
     reset,
   } = useForm();
+
+  useEffect(() => {
+  window.scrollTo(0, 0)
+}, [])
 
   const onSubmit = (data) => {
     console.log("Appointment Data:", data);

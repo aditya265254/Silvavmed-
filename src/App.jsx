@@ -1,21 +1,38 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Home from "./pages/Home";
 import Appointment from "./pages/Appointment";
-import { Route, Routes } from "react-router";
+import { Route, Routes, useLocation } from "react-router";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
+import Loader from "./components/common/Loader";
 
-const App = () => {
+
+
+const AppContent = () => {
+  const location = useLocation()
+  const [loading, setLoading] = useState(false)
+
+  useEffect(() => {
+    setLoading(true)
+    const timer = setTimeout(() => setLoading(false), 500)
+    return () => clearTimeout(timer)
+  }, [location.pathname])
+
   return (
     <div className="m-2">
-      <Navbar/>
+      {loading && <Loader />}
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/appointment" element={<Appointment />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </div>
-  );
-};
+  )
+}
+
+const App = () => {
+  return <AppContent />
+}
 
 export default App;

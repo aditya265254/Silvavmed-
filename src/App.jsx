@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import Home from "./pages/Home";
 import Appointment from "./pages/Appointment";
 import { Route, Routes, useLocation } from "react-router";
-import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import Loader from "./components/common/Loader";
+import Mainnav from "./components/navbar/Mainnav";
 
 
 
@@ -21,7 +21,7 @@ const AppContent = () => {
   return (
     <div className="m-2">
       {loading && <Loader />}
-      <Navbar />
+      <Mainnav/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/appointment" element={<Appointment />} />

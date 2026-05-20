@@ -39,7 +39,7 @@ const Appointment = () => {
 
             {/* Full Name */}
             <div className="mb-9 mt-10">
-              <label htmlFor="fullName" className="font-medium text-[16px] leading-[43px]">
+              <label htmlFor="fullName" className="font-medium text-[16px] leading-10.75">
                 Your Full Name
               </label>
               <br />
@@ -47,7 +47,7 @@ const Appointment = () => {
                 type="text"
                 id="fullName"
                 placeholder="John Doe"
-                className={`h-[70px] lg:w-[550px] md:w-[550px] w-full rounded-[5px] bg-[#FAFAFA] border-[2px] px-3 ${
+                className={`h-17.5 lg:w-137.5 md:w-137.5 w-full rounded-[5px] bg-[#FAFAFA] border-2 px-3 ${
                   errors.fullName ? "border-red-500" : "border-[#D4D4D4]"
                 }`}
                 {...register("fullName", {
@@ -62,7 +62,7 @@ const Appointment = () => {
 
             {/* Email */}
             <div className="mb-9">
-              <label htmlFor="email" className="font-medium text-[16px] leading-[43px]">
+              <label htmlFor="email" className="font-medium text-[16px] leading-10.75">
                 Email Address
               </label>
               <br />
@@ -153,13 +153,13 @@ const Appointment = () => {
 
             {/* Appointment Type */}
             <div className="mb-9">
-              <label htmlFor="appointmentType" className="font-medium text-[16px] leading-[43px]">
+              <label htmlFor="appointmentType" className="font-medium text-[16px] leading-10.75">
                 Appointment Type
               </label>
               <br />
               <select
                 id="appointmentType"
-                className={`h-[70px] lg:w-[550px] md:w-[550px] w-full rounded-[5px] bg-[#FAFAFA] border-[2px] px-3 ${
+                className={`h-17.5 lg:w-137.5 md:w-137.5 w-full rounded-[5px] bg-[#FAFAFA] border-2 px-3 ${
                   errors.appointmentType ? "border-red-500" : "border-[#D4D4D4]"
                 }`}
                 {...register("appointmentType", { required: "Please select an appointment type" })}
@@ -176,7 +176,7 @@ const Appointment = () => {
             </div>
 
             {/* Submit Button */}
-            <div className="h-[70px] lg:w-[550px] md:w-[550px] w-full bg-[#14967F] flex items-center justify-center rounded-[5px] cursor-pointer hover:bg-[#117a67] transition duration-300">
+            <div className="h-17.5 lg:w-137.5 md:w-137.5 w-full bg-[#14967F] flex items-center justify-center rounded-[5px] cursor-pointer hover:bg-[#117a67] transition duration-300">
               <button
                 type="submit"
                 className="text-white font-medium text-[22px]"

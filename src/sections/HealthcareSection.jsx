@@ -1,5 +1,5 @@
 import React from 'react';
-import VorteilAccordion from './VorteilAccordion';  // ✅ Import karna bhoolna mat
+import VorteilAccordion from './VorteilAccordion';  
 import arrow from '../assets/images/common/btn-arrow.svg'
 import award from '../assets/images/helthcare/awards-1.svg'
 

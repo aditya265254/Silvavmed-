@@ -4,7 +4,7 @@ import Appointment from "./pages/Appointment";
 import { Route, Routes, useLocation } from "react-router";
 import Footer from "./components/footer/Footer";
 import Loader from "./components/common/Loader";
-import Mainnav from "./components/navbar/Mainnav";
+import Mainnav from "./components/navbar/Mainnav.jsx";
 
 
 

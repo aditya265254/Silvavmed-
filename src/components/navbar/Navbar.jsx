@@ -1,6 +1,6 @@
 import React from 'react'
 import Topbar from './Topbar'
-import Mainnav from './Mainnav'
+import Mainnav from './Mainnav.jsx'
 
 const Navbar = () => {
   return (

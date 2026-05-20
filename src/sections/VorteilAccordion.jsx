@@ -37,4 +37,4 @@ const VorteilAccordion = ({ title, children, titleColor = "text-[#ffff]", defaul
   );
 };
 
-export default VorteilAccordion; 
+export default VorteilAccordion

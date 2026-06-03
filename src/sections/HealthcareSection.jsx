@@ -1,7 +1,7 @@
-import React from 'react';
-import VorteilAccordion from './VorteilAccordion';  
+import React from 'react';  
 import arrow from '../assets/images/common/btn-arrow.svg'
 import award from '../assets/images/helthcare/awards-1.svg'
+import DescriptionCard from '@/components/common/DescriptionCard';
 
 const HealthcareSection = () => {
   return (
@@ -55,29 +55,29 @@ const HealthcareSection = () => {
           Unsere <span className="font-bold text-[#CEDF89]">Vorteile</span>
         </h1>
 
-        <VorteilAccordion 
+        <DescriptionCard 
           title="An 5 Tagen der Woche geöffnet"
           titleColor="text-[#CEDF89]"
           defaultOpen={true}
         >
           In unserer Einzelpraxis in Landshut stehen wir Ihnen an 5 Tagen in der Woche zur Verfügung. 
           Im Medizinischen Versorgungszentrum Vilsbiburg bieten wir Ihnen arbeitnehmerfreundliche Sprechzeiten an.
-        </VorteilAccordion>
+        </DescriptionCard>
 
-        <VorteilAccordion title="Kein Praxisurlaub">
+        <DescriptionCard title="Kein Praxisurlaub">
           Unsere Praxis bleibt das ganze Jahr über geöffnet. Wir nehmen keinen Praxisurlaub, damit Sie jederzeit medizinische Versorgung erhalten. 
           Auch in den Ferienzeiten sind wir für Sie da.
-        </VorteilAccordion>
+        </DescriptionCard>
 
-        <VorteilAccordion title="Kostenlose Parkmöglichkeiten">
+        <DescriptionCard title="Kostenlose Parkmöglichkeiten">
           Profitieren Sie von unseren kostenlosen Parkplätzen direkt vor der Praxis. In Landshut stehen Ihnen ausreichend Parkplätze im 
           City-Center zur Verfügung. In Vilsbiburg finden Sie ebenfalls kostenfreie Parkmöglichkeiten in unmittelbarer Nähe.
-        </VorteilAccordion>
+        </DescriptionCard>
 
-        <VorteilAccordion title="Öffentliche Erreichbarkeit">
+        <DescriptionCard title="Öffentliche Erreichbarkeit">
           Beide Standorte sind hervorragend an den öffentlichen Nahverkehr angebunden. Bus- und Bahnverbindungen bringen Sie bequem zu uns. 
           Die Haltestellen befinden sich in unmittelbarer Nähe zu unseren Praxen.
-        </VorteilAccordion>
+        </DescriptionCard>
       </div>
     </section>
   );

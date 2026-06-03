@@ -1,8 +1,8 @@
 import React, { useState } from "react";  
-import addlogo from '../assets/images/helthcare/new-order-icon.svg'
-import sublogo from '../assets/images/helthcare/Rectangle 24.svg'
+import addlogo from '../../assets/images/helthcare/new-order-icon.svg'
+import sublogo from '../../assets/images/helthcare/Rectangle 24.svg'
 
-const VorteilAccordion = ({ title, children, titleColor = "text-[#ffff]", defaultOpen = false }) => {
+const DescriptionCard = ({ title, children, titleColor = "text-[#ffff]", defaultOpen = false }) => {
   const [isOpen, setIsOpen] = useState(defaultOpen);  // ✅ Ab sahi kaam karega
 
   return (
@@ -37,4 +37,4 @@ const VorteilAccordion = ({ title, children, titleColor = "text-[#ffff]", defaul
   );
 };
 
-export default VorteilAccordion
+export default DescriptionCard
